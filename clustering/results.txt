@@ -1,0 +1,4 @@
+(Noise) -- 3,218 utterances
+cluster 0  -- 20 utterances -- single characters
+cluster 1 -- 5,117 -- no clear pattern to be found
+cluster 2 -- 25 utterances -- Typos/abbreviations
