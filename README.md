@@ -12,7 +12,20 @@ Contains three files:
 Contains the code for the creation of the anonymous data from the non-anonymous original data.
 
 ## Features
+This directory contains code and files that are needed to create features.
+- verwijswoorden.txt Contains words that refer to external entities or previous sentences. This is adapted from https://www.scribbr.nl/taalregels-schrijftips/verwijswoorden/.
+- score_commonness_wikidump.py Scores the commonness of entities based on wikipedia dump files. Script adapted from Florian Kunneman's script. Instead of using annotations from the json file it reads these out of the text based on the html tags. This script uses colibri-core (https://github.com/proycon/colibri-core). For entity extraction the following script from Florian Kunneman can be used (https://github.com/fkunneman/DTE/blob/master/dte/classes/commonness.py).
+- createOODlist.py Creates a list of n-grams that are common based on commonness scores, but not in the chatbots training data.
+
 
 ## Statistics and figures
 
 ## Clustering 
+
+
+
+
+
+
+
+Note: GitHub Copilot was used to help write the code.
