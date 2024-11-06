@@ -8,9 +8,6 @@ Contains three files:
 - nonrepair_features_nobuttons_anon.csv This data file contains featurization for a random control data set which consists out of utterances that do not occur together with a repair. This selection also removed some utterances that were buttons.
 - finalfeatanonymoussesID.csv Contains a larger selection of featurized utterances before and after repairs (labeled 'sorry' and 'helaas') and a bot response to a complaint (labeled 'vervelend'). 
 
-## Create data
-Contains the code for the creation of the anonymous data from the non-anonymous original data.
-
 ## Features
 This directory contains code and files that are needed to create features.
 - verwijswoorden.txt Contains words that refer to external entities or previous sentences. This is adapted from https://www.scribbr.nl/taalregels-schrijftips/verwijswoorden/.
