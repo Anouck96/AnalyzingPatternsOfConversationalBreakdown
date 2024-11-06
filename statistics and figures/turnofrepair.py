@@ -3,7 +3,7 @@ import pandas as pd
 from collections import Counter
 
 def main():
-    # Simple calculations for conversation length (includes agent utterances, and actions such as a user leaving the conversation)
+    # Simple calculations for turn of repair (includes agent utterances, and actions such as a user leaving the conversation)
     file_paths = ['removed for anonymity']
 
     amount_of_turns = []
