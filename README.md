@@ -31,7 +31,7 @@ This directory contains code to create the table from the paper (including stati
 
 ## Clustering 
 - bert_cluster.py Contains the code to apply clustering to the user utterances before a repair by using bert sentence embeddings.
-- table.txt Contains results of the clustering.
+- results.txt Contains results of the clustering.
 
 
 
