@@ -22,10 +22,16 @@ This directory contains code and files that are needed to create features.
 - random_non_error_data_noButtons.py Creates nonrepair_feature_nobuttons_anon.csv 
 
 ## Statistics and figures
+This directory contains code to create the table from the paper (including statistics test), create the heatmap and code that counts some other descriptives of the total dataset (such as average conversation length).
+
+- average_lengthconversations.py Calculates average length of total data set.
+- countrecognizedEnglish.py Calculates how often the chatbot recognizes a user speaking English.
+- Create_comparetable.py Creates the table from the paper, including the statistical test.
+- make_heatmap_feature_correlation.py Creates the heatmap from the paper by calculating correlations between features.
 
 ## Clustering 
-
-
+- bert_cluster.py Contains the code to apply clustering to the user utterances before a repair by using bert sentence embeddings.
+- table.txt Contains results of the clustering.
 
 
 
